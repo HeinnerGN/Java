@@ -7,7 +7,7 @@ public class Ascensor_peso {
         System.out.println("");
     }
     
-    public static void tomardatos(){
+    public void tomardatos(){
         Scanner dato = new Scanner(System.in);
         System.out.println("Ingrese su peso corporal en kg:");
         double peso=dato.nextDouble();
