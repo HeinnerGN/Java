@@ -14,6 +14,8 @@ public class EjerciciosJava {
             if (opcion == 2) {Ascensor_peso objAscensor_peso = new Ascensor_peso();
             objAscensor_peso.tomardatos();}
             if (opcion == 3) {Temperatura objTemperatura = new Temperatura();}
+            if (opcion == 4) {Umbral_alerta objalerta = new Umbral_alerta();
+            objalerta.tomardatos();}
         }
         else{
             System.out.println("Error, numero no valido."
