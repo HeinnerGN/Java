@@ -13,7 +13,7 @@ public class Ascensor_peso {
         double peso=dato.nextDouble();
         
         if (peso > 500){
-                System.out.println("Limite de peso. Haga ejercicio cabra");
+                System.out.println("Limite de peso.");
             }
         else{
             System.out.println("Ingrese el piso que desea ir (1-10):");
