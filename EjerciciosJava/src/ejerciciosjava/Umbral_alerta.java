@@ -13,12 +13,21 @@ public class Umbral_alerta {
         Scanner dato = new Scanner(System.in);
         System.out.println("Ingrese la temperatura actual:");
         int temp = dato.nextInt();
+        procesardatos(temp);
+    }
         
-        if (temp<umbral_alerta){
-            System.out.println("Temperatura normal.");
-        }else{
-            System.out.println("Alerta. Temperatura alta.");
+        public void procesardatos(int temp){
+            String resultado;
+            if (temp<umbral_alerta){
+                resultado=("Temperatura normal.");
+            }else{
+                resultado=("Alerta. Temperatura alta.");
+            }
+            mostrardatos(resultado);
         }
+        
+        public void mostrardatos(String resultado){
+            System.out.println(resultado);
     }
     
 }
