@@ -17,6 +17,7 @@ public class EjerciciosJava {
             if (opcion == 4) {Umbral_alerta objAlerta = new Umbral_alerta();
             objAlerta.tomardatos();}
             if (opcion == 5) {Combinacion objCombinacion = new Combinacion();}
+            if (opcion == 6) {Tienda objTienda = new Tienda();}
         }
         else{
             System.out.println("Error, numero no valido."
