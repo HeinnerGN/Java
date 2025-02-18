@@ -18,6 +18,30 @@ public class EjerciciosJava {
             objAlerta.tomardatos();}
             if (opcion == 5) {Combinacion objCombinacion = new Combinacion();}
             if (opcion == 6) {Tienda objTienda = new Tienda();}
+            if (opcion == 7) {}
+            if (opcion == 8) {}
+            if (opcion == 9) {}
+            if (opcion == 10) {}
+            if (opcion == 11) {}
+            if (opcion == 12) {}
+            if (opcion == 13) {}
+            if (opcion == 14) {}
+            if (opcion == 15) {}
+            if (opcion == 16) {}
+            if (opcion == 17) {}
+            if (opcion == 18) {}
+            if (opcion == 19) {}
+            if (opcion == 20) {}
+            if (opcion == 21) {}
+            if (opcion == 22) {}
+            if (opcion == 23) {}
+            if (opcion == 24) {}
+            if (opcion == 25) {}
+            if (opcion == 26) {}
+            if (opcion == 27) {}
+            if (opcion == 28) {}
+            if (opcion == 29) {}
+            if (opcion == 30) {}
         }
         else{
             System.out.println("Error, numero no valido."
