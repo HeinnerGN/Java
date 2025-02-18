@@ -11,7 +11,8 @@ public class Imc {
     
     public static void tomardatos(){
         Scanner dato = new Scanner(System.in);
-        System.out.println("Ingrese su masa");
+        System.out.println("Ingrese su masa corporal:");
+        double masa=dato.nextDouble();
     }
     
 }
