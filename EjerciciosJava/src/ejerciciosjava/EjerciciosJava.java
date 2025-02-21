@@ -19,7 +19,7 @@ public class EjerciciosJava {
             if (opcion == 5) {Combinacion objCombinacion = new Combinacion();}
             if (opcion == 6) {Tienda objTienda = new Tienda();}
             if (opcion == 7) {Imc objImc = new Imc();}
-            if (opcion == 8) {}
+            if (opcion == 8) {Cine objCine = new Cine();}
             if (opcion == 9) {}
             if (opcion == 10) {}
             if (opcion == 11) {}
