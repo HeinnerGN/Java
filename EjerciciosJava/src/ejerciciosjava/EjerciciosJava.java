@@ -21,7 +21,7 @@ public class EjerciciosJava {
             if (opcion == 7) {Imc objImc = new Imc();}
             if (opcion == 8) {Cine objCine = new Cine();}
             if (opcion == 9) {Clasificacion objClasificacion = new Clasificacion();}
-            if (opcion == 10) {}
+            if (opcion == 10) {Menu objMenu = new Menu();}
             if (opcion == 11) {}
             if (opcion == 12) {}
             if (opcion == 13) {}
