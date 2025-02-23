@@ -39,6 +39,14 @@ public class Menu {
                 mostrardatos(bebidas, 2);
                 break;
             case 3:
+                System.out.println("Seleccione el metodo de pago:");
+                System.out.println("1. Efectivo");
+                System.out.println("2. Tarjeta de credito");
+                System.out.println("3. Cheque");
+                int numb=cliente.nextInt();
+                if(numb>1){
+                    System.out.println("Se descontara un 10%");
+                }
                 System.out.println("Graccias por utilizar el sistema. "+"Vuelva pronto");
                 break;
             default:
