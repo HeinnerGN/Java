@@ -22,7 +22,7 @@ public class EjerciciosJava {
             if (opcion == 8) {Cine objCine = new Cine();}
             if (opcion == 9) {Clasificacion objClasificacion = new Clasificacion();}
             if (opcion == 10) {Menu objMenu = new Menu();}
-            if (opcion == 11) {}
+            if (opcion == 11) {Cajero_automatico objCajero = new Cajero_automatico();}
             if (opcion == 12) {}
             if (opcion == 13) {}
             if (opcion == 14) {}
