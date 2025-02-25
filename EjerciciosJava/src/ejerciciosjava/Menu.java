@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Menu {
     static Scanner cliente = new Scanner(System.in);
     
-    // Variables globales para acumular el total de la compra
     static double totalcompra = 0;
     static double totalplatos = 0;
     static double totalbebidas = 0;
@@ -29,29 +28,26 @@ public class Menu {
     public static void procesardatos(int num) {
         switch (num) {
             case 1:
-                // Pedido de platos
                 System.out.println("Ingrese un numero para hacer su pedido:");
                 System.out.println("1. Hamburguesa: $10.000");
                 System.out.println("2. Spaguetti: $20.000");
                 System.out.println("3. Ensalada de frutas: $8.000");
                 int platos = cliente.nextInt();
                 totalplatos = calcularplatos(platos);
-                totalcompra += totalplatos;  // Acumula el total de los platos
+                totalcompra += totalplatos; 
                 mostrardatos(platos, 1);
                 break;
             case 2:
-                // Pedido de bebidas
                 System.out.println("Ingrese un numero para hacer su pedido:");
                 System.out.println("1. Coca cola: $7.000");
                 System.out.println("2. Jugo: $5.000");
                 System.out.println("3. Cerveza: $6.000");
                 int bebidas = cliente.nextInt();
                 totalbebidas = calcularbebidas(bebidas);
-                totalcompra += totalbebidas;  // Acumula el total de las bebidas
+                totalcompra += totalbebidas;
                 mostrardatos(bebidas, 2);
                 break;
             case 3:
-                // Finaliza la compra y calcula el total
                 System.out.println("Seleccione el metodo de pago:");
                 System.out.println("1. Efectivo");
                 System.out.println("2. Tarjeta de credito");
@@ -65,7 +61,7 @@ public class Menu {
                     System.out.println("Se descontara un 10%");
                     valortotal = totalcompra - (totalcompra * 0.10);
                 } else {
-                    valortotal = totalcompra;  // No hay descuento
+                    valortotal = totalcompra;
                 }
 
                 System.out.println("Valor total a pagar: " + valortotal);
@@ -76,7 +72,6 @@ public class Menu {
                 break;
         }
 
-        // Si no ha seleccionado "Salir", vuelve a mostrar el menú
         if (num != 3) {
             tomardatos();
         }
