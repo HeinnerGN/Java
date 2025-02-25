@@ -25,7 +25,7 @@ public class EjerciciosJava {
             if (opcion == 11) {Cajero_automatico objCajero = new Cajero_automatico();}
             if (opcion == 12) {Compra_tienda tienda = new Compra_tienda(); tienda.Compra_tienda();}
             if (opcion == 13) {Impresora objImpresora = new Impresora();}
-            if (opcion == 14) {}
+            if (opcion == 14) {Viaje_coche Viaje = new Viaje_coche(); Viaje.Viaje_coche();}
             if (opcion == 15) {}
             if (opcion == 16) {}
             if (opcion == 17) {}
