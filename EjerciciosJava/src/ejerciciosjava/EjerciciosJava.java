@@ -24,7 +24,7 @@ public class EjerciciosJava {
             if (opcion == 10) {Menu objMenu = new Menu();}
             if (opcion == 11) {Cajero_automatico objCajero = new Cajero_automatico();}
             if (opcion == 12) {Compra_tienda tienda = new Compra_tienda(); tienda.Compra_tienda();}
-            if (opcion == 13) {}
+            if (opcion == 13) {Impresora objImpresora = new Impresora();}
             if (opcion == 14) {}
             if (opcion == 15) {}
             if (opcion == 16) {}

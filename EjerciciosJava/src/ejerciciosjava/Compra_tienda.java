@@ -38,7 +38,7 @@ public class Compra_tienda {
                     if(info==1){
                         tomardatos();
                     }else if(info==2){
-                        System.out.println("Gracias por su compra. Presione 0 para salir del todo.");
+                        System.out.println("Gracias por su compra.");
                     }
                     break;
                 case 2:
