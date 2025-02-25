@@ -85,7 +85,6 @@ public class Compra_tienda {
                 System.out.println("Vuelva pronto");
                 break;
             }
-            
         }
     }
     
