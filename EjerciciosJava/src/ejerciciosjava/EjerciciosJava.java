@@ -36,12 +36,9 @@ public class EjerciciosJava {
             if (opcion == 22) {Registro_ventas objVentas = new Registro_ventas();}
             if (opcion == 23) {Parqueadero objparquear = new Parqueadero();}
             if (opcion == 24) {Tienda_virtual objVirtual = new Tienda_virtual();}
-            if (opcion == 25) {}
-            if (opcion == 26) {}
-            if (opcion == 27) {}
-            if (opcion == 28) {}
-            if (opcion == 29) {}
-            if (opcion == 30) {}
+            if (opcion == 25) {Agenda_contactos objAgenda = new Agenda_contactos();}
+            if (opcion == 26) {Lista_numeros objlista = new Lista_numeros();}
+            if (opcion == 27) {Ventas objventas = new Ventas();}
         }
         else{
             System.out.println("Error, numero no valido."
