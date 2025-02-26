@@ -29,7 +29,7 @@ public class EjerciciosJava {
             if (opcion == 15) {Cuenta_regresiva cuenta = new Cuenta_regresiva(); cuenta.Cuenta_regresiva();}
             if (opcion == 16) {Adivinanza objAdivinanza = new Adivinanza();}
             if (opcion == 17) {Biblioteca objBilbioteca = new Biblioteca();}
-            if (opcion == 18) {}
+            if (opcion == 18) {Menu_comidas objMenu = new Menu_comidas();}
             if (opcion == 19) {}
             if (opcion == 20) {}
             if (opcion == 21) {}

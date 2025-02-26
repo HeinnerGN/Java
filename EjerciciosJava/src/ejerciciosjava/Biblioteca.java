@@ -6,7 +6,7 @@ public class Biblioteca {
     static Scanner dato = new Scanner(System.in);
     
     public Biblioteca(){
-        System.out.println("Ejercicio: Registro de Biblioteca");
+        System.out.println("Ejercicio 17: Registro de Biblioteca");
         System.out.println("");
         registrarlibros();
     }
