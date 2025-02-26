@@ -35,7 +35,7 @@ public class EjerciciosJava {
             if (opcion == 21) {Gestion_tareas objGestion = new Gestion_tareas();}
             if (opcion == 22) {Registro_ventas objVentas = new Registro_ventas();}
             if (opcion == 23) {Parqueadero objparquear = new Parqueadero();}
-            if (opcion == 24) {}
+            if (opcion == 24) {Tienda_virtual objVirtual = new Tienda_virtual();}
             if (opcion == 25) {}
             if (opcion == 26) {}
             if (opcion == 27) {}
