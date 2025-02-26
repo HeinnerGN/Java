@@ -20,8 +20,8 @@ public class Viaje_coche {
     }
 
     public static void procesardatos(double distancia, double velocidad){
-        int opcion = 0;
-        while(opcion == 0){
+        boolean opcion = true;
+        while(opcion){
             double tiempo = distancia / velocidad;
             System.out.println("El tiempo estimado de viaje es: " + tiempo + " horas");
             System.out.println("-------");
@@ -32,15 +32,11 @@ public class Viaje_coche {
             if(info == 1){
                 tomardatos();
             } else if(info == 2){
-                System.out.println("Buen viaje");
-            }
-
-            System.out.println("Presione 0 para salir.");
-            opcion = dato.nextInt();
-            if(opcion == 0){
-                System.out.println("Hasta pronto. Que tenga buen viaje.");
+                opcion = false;
                 break;
             }
+
+            
         }
     }
 }

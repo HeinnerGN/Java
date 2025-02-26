@@ -31,7 +31,7 @@ public class EjerciciosJava {
             if (opcion == 17) {Biblioteca objBilbioteca = new Biblioteca();}
             if (opcion == 18) {Menu_comidas objMenu = new Menu_comidas();}
             if (opcion == 19) {Sensor_temp objTemp = new Sensor_temp();}
-            if (opcion == 20) {}
+            if (opcion == 20) {Examenes objExamenes = new Examenes();}
             if (opcion == 21) {}
             if (opcion == 22) {}
             if (opcion == 23) {}
