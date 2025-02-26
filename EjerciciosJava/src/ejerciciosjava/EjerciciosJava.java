@@ -33,8 +33,8 @@ public class EjerciciosJava {
             if (opcion == 19) {Sensor_temp objTemp = new Sensor_temp();}
             if (opcion == 20) {Examenes objExamenes = new Examenes();}
             if (opcion == 21) {Gestion_tareas objGestion = new Gestion_tareas();}
-            if (opcion == 22) {}
-            if (opcion == 23) {}
+            if (opcion == 22) {Registro_ventas objVentas = new Registro_ventas();}
+            if (opcion == 23) {Parqueadero objparquear = new Parqueadero();}
             if (opcion == 24) {}
             if (opcion == 25) {}
             if (opcion == 26) {}
