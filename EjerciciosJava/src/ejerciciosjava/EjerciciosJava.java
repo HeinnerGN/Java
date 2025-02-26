@@ -27,7 +27,7 @@ public class EjerciciosJava {
             if (opcion == 13) {Impresora objImpresora = new Impresora();}
             if (opcion == 14) {Viaje_coche Viaje = new Viaje_coche(); Viaje.Viaje_coche();}
             if (opcion == 15) {Cuenta_regresiva cuenta = new Cuenta_regresiva(); cuenta.Cuenta_regresiva();}
-            if (opcion == 16) {}
+            if (opcion == 16) {Adivinanza objAdivinanza = new Adivinanza(); objAdivinanza.Adivinanza();}
             if (opcion == 17) {}
             if (opcion == 18) {}
             if (opcion == 19) {}
