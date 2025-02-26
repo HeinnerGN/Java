@@ -7,7 +7,7 @@ public class Adivinanza {
     static Scanner dato = new Scanner(System.in);
     static Random random = new Random();
     
-    public static void Adivinanza(){
+    public Adivinanza(){
         System.out.println("Ejercicio 16: Juego de Adivinanza");
         System.out.println("");
         jugar();
