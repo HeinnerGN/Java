@@ -7,7 +7,7 @@ public class Examenes {
     static Scanner dato = new Scanner(System.in);
     
     public Examenes() {
-        System.out.println("Ejercicio 20: Resultado de exámenes");
+        System.out.println("Ejercicio 20: Resultado de examenes");
         System.out.println("");
         tomardatos();
     }
@@ -19,7 +19,7 @@ public class Examenes {
         char continuar;
         
         do {
-            System.out.print("Ingrese el resultado del examen: ");
+            System.out.println("Ingrese el resultado del examen: ");
             resultado = dato.nextDouble();
             suma += resultado;
             contador++;

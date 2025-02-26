@@ -32,7 +32,7 @@ public class EjerciciosJava {
             if (opcion == 18) {Menu_comidas objMenu = new Menu_comidas();}
             if (opcion == 19) {Sensor_temp objTemp = new Sensor_temp();}
             if (opcion == 20) {Examenes objExamenes = new Examenes();}
-            if (opcion == 21) {}
+            if (opcion == 21) {Gestion_tareas objGestion = new Gestion_tareas();}
             if (opcion == 22) {}
             if (opcion == 23) {}
             if (opcion == 24) {}

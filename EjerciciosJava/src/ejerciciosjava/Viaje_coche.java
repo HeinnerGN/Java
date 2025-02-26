@@ -20,23 +20,32 @@ public class Viaje_coche {
     }
 
     public static void procesardatos(double distancia, double velocidad){
-        boolean opcion = true;
-        while(opcion){
+        int opcion = 0;
+        while(opcion != 2){
             double tiempo = distancia / velocidad;
             System.out.println("El tiempo estimado de viaje es: " + tiempo + " horas");
             System.out.println("-------");
             System.out.println("Desea hacer otro viaje?");
             System.out.println("1. Si");
             System.out.println("2. No");
-            int info = dato.nextInt();
-            if(info == 1){
+            opcion = dato.nextInt();
+            
+            if(opcion == 1){
                 tomardatos();
-            } else if(info == 2){
-                opcion = false;
                 break;
             }
-
+            else if(opcion == 2){
+                mostrardatos();
+                break;
+            }
+            else{
+                System.out.println("Opcion invalida. Vuelva a intentarlo:");
+            }
             
         }
+    }
+    
+    public static void mostrardatos(){
+        System.out.println("Buen viaje, vuelva pronto.");
     }
 }
