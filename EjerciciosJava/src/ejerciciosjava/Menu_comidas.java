@@ -15,13 +15,13 @@ public class Menu_comidas {
         int total = 0;
         int opcion;
         do {
-            System.out.println("Menu de Comidas Rapidas:");
+            System.out.println("Menu de Comidas Rapidas");
             System.out.println("1. Hamburguesa: $8000");
             System.out.println("2. Papas fritas: $2000");
             System.out.println("3. Refresco: $6000");
             System.out.println("4. Hot dog: $4000");
             System.out.println("5. Salir");
-            System.out.println("Elija una opcion (1-5): ");
+            System.out.println("Elija una opcion (1-5):");
             opcion = dato.nextInt();
             procesardatos(opcion, total);
         } 
@@ -50,7 +50,7 @@ public class Menu_comidas {
                 System.out.println("Has agregado un hot dog. Precio: $4000");
                 break;
             case 5:
-                System.out.println("Saliendo del menú...");
+                System.out.println("Saliendo del menu...");
                 break;
             default:
                 System.out.println("Opción no válida, por favor elija nuevamente.");
